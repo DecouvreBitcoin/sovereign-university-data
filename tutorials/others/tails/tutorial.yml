@@ -1,0 +1,13 @@
+builder: Tails
+
+tags:
+  - privacy
+  - OS
+
+category: OpenSource
+
+level: advanced
+
+credits:
+  professor: dance-attack
+  link: https://agora256.com/installer-tails-usb/
