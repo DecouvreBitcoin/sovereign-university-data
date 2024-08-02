@@ -1,0 +1,881 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Thomas Suau at 2023-07-04 13:22:09 +0200 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{zerosync-rgb,
+	author = {Linus, Robin and George, Lukas},
+	date-added = {2023-06-16 22:35:12 +0200},
+	date-modified = {2023-06-16 22:37:29 +0200},
+	journal = {ZeroSync Association},
+	title = {ZeroSync: Introducing Validity Proofs to Bitcoin}}
+
+@inproceedings{quant-ln,
+	author = {Tikhomirov, Sergei and Moreno-Sanchez, Pedro and Maffei, Matteo},
+	booktitle = {2020 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW)},
+	date-added = {2023-06-16 22:09:02 +0200},
+	date-modified = {2023-06-16 22:09:13 +0200},
+	doi = {10.1109/EuroSPW51379.2020.00059},
+	pages = {387-396},
+	title = {A Quantitative Analysis of Security, Anonymity and Scalability for the Lightning Network},
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.1109/EuroSPW51379.2020.00059}}
+
+@inproceedings{security-ln,
+	author = {Kiayias, Aggelos and Litos, Orfeas Stefanos Thyfronitis},
+	booktitle = {2020 IEEE 33rd Computer Security Foundations Symposium (CSF)},
+	date-added = {2023-06-16 22:08:52 +0200},
+	date-modified = {2023-06-16 22:09:25 +0200},
+	doi = {10.1109/CSF49147.2020.00031},
+	pages = {334-349},
+	title = {A Composable Security Treatment of the Lightning Network},
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.1109/CSF49147.2020.00031}}
+
+@phdthesis{GenElGamal,
+	abstract = {Among the signature schemes most widely deployed in practice are the DSA (Digital Signature Algorithm) and its elliptic curves variant ECDSA. They are represented in many international standards, including IEEE P1363, ANSI X9.62, and FIPS 186-4.
+In this work we propose GenElgamal, a signature framework that subsumes both DSA and ECDSA, as well as their Russian and Chinese counterparts GOST 34.10 and SM2.
+By carefully modeling the "modulo q" conversion function as a composition of three independent functions, we rigorously prove results on the security of GenElgamal that indicate that forging signatures is as hard as solving discrete logarithms.
+Taking a more conservative approach, we further show that if the hash function of GenElgamal is modeled as a random oracle, and the signer issues at most one signature per message, the signature oracle is redundant.
+Finally, we discuss if and how the results described above can be made more memory-efficient.},
+	author = {Manuel Fersch},
+	date-added = {2023-06-16 18:31:24 +0200},
+	date-modified = {2023-06-16 18:32:07 +0200},
+	school = {Ruhr-Universit{\"a}t Bochum, Universit{\"a}tsbibliothek},
+	title = {The provable security of elgamal-type signature schemes},
+	type = {doctoralthesis},
+	year = {2018}}
+
+@misc{sound-algo,
+	author = {Douglas Wikstr{\"o}m},
+	date-added = {2023-06-16 16:03:28 +0200},
+	date-modified = {2023-06-16 16:04:23 +0200},
+	howpublished = {Cryptology ePrint Archive, Paper 2018/1157},
+	keywords = {sound, soundness algorithm, algorithm},
+	title = {Special Soundness Revisited},
+	year = {2018}}
+
+@inproceedings{DH-assumptions,
+	abstract = {We present axioms and inference rules for reasoning about Diffie-Hellman-based key exchange protocols and use these rules to prove authentication and secrecy properties of two important protocol standards, the Diffie-Hellman variant of Kerberos, and IKEv2, the revised standard key management protocol for IPSEC. The new proof system is sound for an accepted semantics used in cryptographic studies. In the process of applying our system, we uncover a deficiency in Diffie-Hellman Kerberos that is easily repaired.},
+	address = {Berlin, Heidelberg},
+	author = {Roy, Arnab and Datta, Anupam and Mitchell, John C.},
+	booktitle = {Trustworthy Global Computing},
+	date-added = {2023-06-16 15:52:24 +0200},
+	date-modified = {2023-06-16 15:52:33 +0200},
+	editor = {Barthe, Gilles and Fournet, C{\'e}dric},
+	isbn = {978-3-540-78663-4},
+	pages = {312--329},
+	publisher = {Springer Berlin Heidelberg},
+	title = {Formal Proofs of Cryptographic Security of Diffie-Hellman-Based Protocols},
+	year = {2008}}
+
+@misc{the-ord,
+	author = {0xGrug and m3rl1n and alt.},
+	date-added = {2023-06-16 15:49:44 +0200},
+	date-modified = {2023-07-04 13:22:01 +0200},
+	howpublished = {\href{https://theord.oshi.fi/op-project/}{The Ord project}},
+	keywords = {the ord, ordinals},
+	title = {Metaprotocol},
+	year = {2023}}
+
+@misc{BIP341,
+	abstract = {Abstract
+This document proposes a new SegWit version 1 output type, with spending rules based on Taproot, Schnorr signatures, and Merkle branches.
+
+Copyright
+This document is licensed under the 3-clause BSD license.
+
+Motivation
+This proposal aims to improve privacy, efficiency, and flexibility of Bitcoin's scripting capabilities without adding new security assumptions[1]. Specifically, it seeks to minimize how much information about the spendability conditions of a transaction output is revealed on chain at creation or spending time and to add a number of upgrade mechanisms, while fixing a few minor but long-standing issues.},
+	author = {Pieter Wuille and Jonas Nick and Anthony Towns},
+	date-added = {2023-06-16 14:53:09 +0200},
+	date-modified = {2023-06-16 14:55:31 +0200},
+	howpublished = {\url{https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki}},
+	keywords = {BIP 314, Taproot, Bitcoin core},
+	month = {January},
+	title = {BIP 341 : Taproot: SegWit version 1 spending rules},
+	year = {2020}}
+
+@misc{BIP119,
+	author = {Jeremy Rubin},
+	date-added = {2023-06-16 14:51:04 +0200},
+	date-modified = {2023-06-16 14:52:57 +0200},
+	howpublished = {\url{https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki}},
+	keywords = {BIP 114, CHECKTEMPLATEVERIFY, Bitcoin core, BIP},
+	month = {June},
+	title = {BIP 119 CHECKTEMPLATEVERIFY},
+	year = {2020}}
+
+@misc{brc20,
+	author = {Domo},
+	date-added = {2023-06-16 14:48:36 +0200},
+	date-modified = {2023-06-16 14:49:23 +0200},
+	howpublished = {\url{https://domo-2.gitbook.io/brc-20-experiment/}},
+	title = {Brc-20 Experiment}}
+
+@inproceedings{btc-token,
+	author = {Bartoletti, Massimo and Lande, Stefano and Zunino, Roberto},
+	booktitle = {2021 IEEE 34th Computer Security Foundations Symposium (CSF)},
+	date-added = {2023-06-16 14:33:38 +0200},
+	date-modified = {2023-06-16 14:33:45 +0200},
+	doi = {10.1109/CSF51468.2021.00022},
+	pages = {1-15},
+	title = {Computationally sound Bitcoin tokens},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1109/CSF51468.2021.00022}}
+
+@inproceedings{blockchain-perspectives,
+	abstract = {As a result of the 2017 boom in the cryptocurrency market, some governments around the world have begun to work in the direction of regularizing and supervising digital currency. People have gained trust in the use of cryptocurrency thanks to the security of the blockchain technology and of their economic ecosystem. This paper reviews the challenges faced by five different cryptocurrencies with the highest market capitalization. Furthermore, we analyze the blockchain technology that underlies them.},
+	address = {Cham},
+	author = {Valdeolmillos, Diego and Mezquita, Yeray and Gonz{\'a}lez-Briones, Alfonso and Prieto, Javier and Corchado, Juan Manuel},
+	booktitle = {Blockchain and Applications},
+	date-added = {2023-06-16 14:21:53 +0200},
+	date-modified = {2023-06-16 14:22:05 +0200},
+	editor = {Prieto, Javier and Das, Ashok Kumar and Ferretti, Stefano and Pinto, Ant{\'o}nio and Corchado, Juan Manuel},
+	isbn = {978-3-030-23813-1},
+	pages = {153--160},
+	publisher = {Springer International Publishing},
+	title = {Blockchain Technology: A Review of the Current Challenges of Cryptocurrency},
+	year = {2020}}
+
+@inproceedings{ngrave-wallet,
+	author = {Dowsley, Rafael and Farias, Mylene CQ and Larangeirab, Mario and Nascimento, Anderson and Virdee, Jot},
+	booktitle = {International Conference on Security and Cryptography 2022},
+	date-added = {2023-06-16 11:14:47 +0200},
+	date-modified = {2023-06-16 11:19:11 +0200},
+	keywords = {ngrave, cold wallet, security private key},
+	organization = {Scitepress},
+	pages = {283-290},
+	title = {A Spendable Cold Wallet from QR Video},
+	year = {2022}}
+
+@inproceedings{ECC-practice,
+	abstract = {In this paper we perform a review of elliptic curve cryptography (ECC) as it is used in practice today in order to reveal unique mistakes and vulnerabilities that arise in implementations of ECC. We study four popular protocols that make use of this type of public-key cryptography: Bitcoin, secure shell (SSH), transport layer security (TLS), and the Austrian e-ID card. We are pleased to observe that about 1 in 10 systems support ECC across the TLS and SSH protocols. However, we find that despite the high stakes of money, access and resources protected by ECC, implementations suffer from vulnerabilities similar to those that plague previous cryptographic systems.},
+	address = {Berlin, Heidelberg},
+	author = {Bos, Joppe W. and Halderman, J. Alex and Heninger, Nadia and Moore, Jonathan and Naehrig, Michael and Wustrow, Eric},
+	booktitle = {Financial Cryptography and Data Security},
+	date-added = {2023-06-16 11:11:17 +0200},
+	date-modified = {2023-06-16 11:11:46 +0200},
+	editor = {Christin, Nicolas and Safavi-Naini, Reihaneh},
+	isbn = {978-3-662-45472-5},
+	pages = {157--175},
+	publisher = {Springer Berlin Heidelberg},
+	title = {Elliptic Curve Cryptography in Practice},
+	year = {2014}}
+
+@techreport{hacspec-rust,
+	author = {Merigoux, Denis and Kiefer, Franziskus and Bhargavan, Karthikeyan},
+	date-added = {2023-06-16 11:03:50 +0200},
+	date-modified = {2023-06-16 11:05:53 +0200},
+	institution = {Inria},
+	keywords = {Hacspec, rust, verifiable specifications},
+	month = {March},
+	title = {Hacspec: succinct, executable, verifiable specifications for high-assurance cryptography embedded in Rust},
+	year = {2021}}
+
+@inproceedings{rust-crypto,
+	author = {Mindermann, Kai and Keck, Philipp and Wagner, Stefan},
+	booktitle = {2018 IEEE International Conference on Software Quality, Reliability and Security (QRS)},
+	date-added = {2023-06-16 11:02:25 +0200},
+	date-modified = {2023-06-16 11:02:31 +0200},
+	doi = {10.1109/QRS.2018.00028},
+	pages = {143-154},
+	title = {How Usable Are Rust Cryptography APIs?},
+	year = {2018},
+	bdsk-url-1 = {https://doi.org/10.1109/QRS.2018.00028}}
+
+@article{rust-zero-trust,
+	abstract = {Zero Trust Architecture requirements are of increasing importance in critical systems development. Zero trust tenets hold that no implicit trust be granted to assets based on their physical or network location. Zero Trust development focuses on authentication, authorization, and shrinking implicit trust zones to the most granular level possible, while maintaining availability and minimizing authentication latency. Performant, high-assurance cryptographic primitives are thus central to successfully realizing a Zero Trust Architecture. The Rust programming language has garnered significant interest and use as a modern, type-safe, memory-safe, and potentially formally analyzable programming language. Our interest in Rust particularly stems from its potential as a hardware/software co-assurance language for developing Zero Trust Architectures. We describe a novel environment enabling Rust to be used as a High-Level Synthesis (HLS) language, suitable for secure and performant Zero Trust application development. Many incumbent HLS languages are a subset of C, and inherit many of the well-known security shortcomings of that language. A Rust-based HLS brings a single modern, type-safe, memory-safe, high-assurance development language for both hardware and software. To study the benefits of this approach, we crafted a Rust HLS subset, and developed a frontend to the hardware/software co-assurance toolchain due to Russinoff and colleagues at Arm, used primarily for floating-point hardware formal verification. This allows us to leverage a number of existing hardware/software co-assurance tools with a minimum investment of time and effort. In this paper, we describe our Rust subset, detail our prototype toolchain, and describe the implementation, performance analysis, formal verification and validation of representative Zero Trust algorithms and data structures written in Rust, emphasizing cryptographic primitives and common data structures.},
+	address = {New York, NY, USA},
+	author = {Hardin, David},
+	date-added = {2023-06-16 11:01:19 +0200},
+	date-modified = {2023-06-16 11:01:28 +0200},
+	doi = {10.1145/3591335.3591340},
+	issn = {1094-3641},
+	issue_date = {December 2022},
+	journal = {Ada Lett.},
+	keywords = {acl2, hardware/software co-assurance, theorem proving, rust},
+	month = {apr},
+	number = {2},
+	numpages = {7},
+	pages = {55--61},
+	publisher = {Association for Computing Machinery},
+	title = {Hardware/Software Co-Assurance for the Rust Programming Language Applied to Zero Trust Architecture Development},
+	url = {https://doi.org/10.1145/3591335.3591340},
+	volume = {42},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1145/3591335.3591340}}
+
+@inproceedings{rust-lang3,
+	author = {Holk, Eric and Pathirage, Milinda and Chauhan, Arun and Lumsdaine, Andrew and Matsakis, Nicholas D.},
+	booktitle = {2013 IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum},
+	date-added = {2023-06-16 10:58:30 +0200},
+	date-modified = {2023-06-16 10:58:50 +0200},
+	doi = {10.1109/IPDPSW.2013.173},
+	pages = {315-324},
+	title = {GPU Programming in Rust: Implementing High-Level Abstractions in a Systems-Level Language},
+	year = {2013},
+	bdsk-url-1 = {https://doi.org/10.1109/IPDPSW.2013.173}}
+
+@article{rust-safe,
+	abstract = {The promise and the challenges of the first industry-supported language to master the trade-off between safety and control.},
+	address = {New York, NY, USA},
+	author = {Jung, Ralf and Jourdan, Jacques-Henri and Krebbers, Robbert and Dreyer, Derek},
+	date-added = {2023-06-16 10:53:40 +0200},
+	date-modified = {2023-06-16 10:53:48 +0200},
+	doi = {10.1145/3418295},
+	issn = {0001-0782},
+	issue_date = {April 2021},
+	journal = {Commun. ACM},
+	month = {mar},
+	number = {4},
+	numpages = {9},
+	pages = {144--152},
+	publisher = {Association for Computing Machinery},
+	title = {Safe Systems Programming in Rust},
+	url = {https://doi.org/10.1145/3418295},
+	volume = {64},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1145/3418295}}
+
+@phdthesis{rust-lang2,
+	author = {Ralf Jung},
+	date-added = {2023-06-16 10:47:49 +0200},
+	date-modified = {2023-06-16 10:51:05 +0200},
+	school = {Universit{\"a}t des Saarlandes},
+	title = {Understanding and evolving the Rust programming language},
+	year = {2020}}
+
+@book{rust-lang1,
+	author = {Steve Klabnik and Carol Nichols},
+	date-added = {2023-06-16 10:44:58 +0200},
+	date-modified = {2023-06-16 10:46:42 +0200},
+	edition = {2nd},
+	keywords = {Rust language, rust for development},
+	month = {February},
+	publisher = {No Starch Press},
+	title = {The Rust Programming Language, 2nd Edition},
+	year = {2023}}
+
+@article{noah-ark,
+	author = {Morten Dahl and Daniel Demmler and Sarah Elkazdadi and Arthur Meyre and Jean-Baptiste Orfila and Dragos Rotaru and Nigel P. Smart and Samuel Tap and Michael Walter},
+	date-added = {2023-06-16 10:36:27 +0200},
+	date-modified = {2023-06-16 10:37:32 +0200},
+	journal = {Cryptology ePrint Archive, Paper 2023/815},
+	month = {June},
+	title = {Noah's Ark: Efficient Threshold-FHE Using Noise Flooding},
+	year = {2023}}
+
+@article{digital-signature,
+	author = {Farah Maath Jasem and Ali Makki Sagheer and Abdullah M. Awad},
+	date-added = {2023-06-16 10:27:28 +0200},
+	date-modified = {2023-06-16 10:29:15 +0200},
+	journal = {Bulletin of Electrical Engineering and Informatics},
+	keywords = {Bitcoin, ECDSA, Key management, Privacy, Wallets},
+	month = {February},
+	number = {1},
+	pages = {449-457},
+	title = {Enhancement of digital signature algorithm in bitcoin wallet},
+	volume = {10},
+	year = {2021}}
+
+@inproceedings{k-hunt,
+	abstract = {The only secrets in modern cryptography (crypto for short) are the crypto keys. Understanding how crypto keys are used in a program and discovering insecure keys is paramount for crypto security. This paper presents K-Hunt, a system for identifying insecure keys in binary executables. K-Hunt leverages the properties of crypto operations for identifying the memory buffers where crypto keys are stored. And, it tracks their origin and propagation to identify insecure keys such as deterministically generated keys, insecurely negotiated keys, and recoverable keys. K-Hunt does not use signatures to identify crypto operations, and thus can be used to identify insecure keys in unknown crypto algorithms and proprietary crypto implementations. We have implemented K-Hunt and evaluated it with 10 cryptographic libraries and 15 applications that contain crypto operations. Our evaluation results demonstrate that K-Hunt locates the keys in symmetric ciphers, asymmetric ciphers, stream ciphers, and digital signatures, regardless if those algorithms are standard or proprietary. More importantly, K-Hunt discovers insecure keys in 22 out of 25 evaluated programs including well-developed crypto libraries such as Libsodium, Nettle, TomCrypt, and WolfSSL.},
+	address = {New York, NY, USA},
+	author = {Li, Juanru and Lin, Zhiqiang and Caballero, Juan and Zhang, Yuanyuan and Gu, Dawu},
+	booktitle = {Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+	date-added = {2023-06-16 10:17:30 +0200},
+	date-modified = {2023-06-16 10:17:38 +0200},
+	doi = {10.1145/3243734.3243783},
+	isbn = {9781450356930},
+	keywords = {cryptographic key identification, dynamic binary code analysis},
+	location = {Toronto, Canada},
+	numpages = {14},
+	pages = {412--425},
+	publisher = {Association for Computing Machinery},
+	series = {CCS '18},
+	title = {K-Hunt: Pinpointing Insecure Cryptographic Keys from Execution Traces},
+	url = {https://doi.org/10.1145/3243734.3243783},
+	year = {2018},
+	bdsk-url-1 = {https://doi.org/10.1145/3243734.3243783}}
+
+@inproceedings{pinocchio,
+	author = {Parno, Bryan and Howell, Jon and Gentry, Craig and Raykova, Mariana},
+	booktitle = {2013 IEEE Symposium on Security and Privacy},
+	date-added = {2023-06-16 01:33:46 +0200},
+	date-modified = {2023-06-16 01:33:56 +0200},
+	doi = {10.1109/SP.2013.47},
+	pages = {238-252},
+	title = {Pinocchio: Nearly Practical Verifiable Computation},
+	year = {2013},
+	bdsk-url-1 = {https://doi.org/10.1109/SP.2013.47}}
+
+@article{signature-schemes,
+	abstract = {With the rise of Bitcoin, blockchain which is the core technology of Bitcoin has received increasing attention. Privacy preserving and performance on blockchain are two research points in academia and business, but there are still some unresolved issues in both respects. An aggregate signature scheme is a digital signature that supports making signatures on many different messages generated by many different users. Using aggregate signature, the size of the signature could be shortened by compressing multiple signatures into a single signature. In this paper, a new signature scheme for transactions on blockchain based on the aggregate signature was proposed. It was worth noting that elliptic curve discrete logarithm problem and bilinear maps played major roles in our signature scheme. And the security properties of our signature scheme were proved. In our signature scheme, the amount will be hidden especially in the transactions which contain multiple inputs and outputs. Additionally, the size of the signature on transaction is constant regardless of the number of inputs and outputs that the transaction contains, which can improve the performance of signature. Finally, we gave an application scenario for our signature scheme which aims to achieve the transactions of big data on blockchain.},
+	author = {Du, Xiaojiang and Yuan, Chao and Xu, Mi-xue and Si, Xue-ming},
+	date = {2017/08/21},
+	date-added = {2023-06-16 00:56:52 +0200},
+	date-modified = {2023-06-16 00:57:00 +0200},
+	doi = {10.1155/2017/4746586},
+	isbn = {1939-0114},
+	journal = {Security and Communication Networks},
+	pages = {4746586},
+	publisher = {Hindawi},
+	title = {Research on a New Signature Scheme on Blockchain},
+	url = {https://doi.org/10.1155/2017/4746586},
+	volume = {2017},
+	year = {2017},
+	bdsk-url-1 = {https://doi.org/10.1155/2017/4746586}}
+
+@book{mastering-btc,
+	author = {Antonopoulos, A.M.},
+	date-added = {2023-06-16 00:51:23 +0200},
+	date-modified = {2023-06-16 00:51:34 +0200},
+	isbn = {9781491902646},
+	lccn = {2015413040},
+	publisher = {O'Reilly Media},
+	title = {Mastering Bitcoin: Unlocking Digital Cryptocurrencies},
+	url = {https://books.google.be/books?id=IXmrBQAAQBAJ},
+	year = {2014},
+	bdsk-url-1 = {https://books.google.be/books?id=IXmrBQAAQBAJ}}
+
+@inproceedings{primitives-eth,
+	author = {Singh, Ramveer and Pooja and Agarwal, Ambuj Kumar and Naaz, Rohaila and Kumar, Raj and Vijay, Richa},
+	booktitle = {2022 11th International Conference on System Modeling & Advancement in Research Trends (SMART)},
+	date-added = {2023-06-16 00:36:32 +0200},
+	date-modified = {2023-06-16 00:36:46 +0200},
+	doi = {10.1109/SMART55829.2022.10046712},
+	pages = {1589-1595},
+	title = {A Study of Cryptographic Primitives in the context of Blockchain's Data Integrity and Privacy},
+	year = {2022},
+	bdsk-url-1 = {https://doi.org/10.1109/SMART55829.2022.10046712}}
+
+@inproceedings{eth-perspectives,
+	abstract = {Ethereum is a major blockchain-based platform for smart contracts -- Turing complete programs that are executed in a decentralized network and usually manipulate digital units of value. A peer-to-peer network of mutually distrusting nodes maintains a common view of the global state and executes code upon request. The stated is stored in a blockchain secured by a proof-of-work consensus mechanism similar to that in Bitcoin. The core value proposition of Ethereum is a full-featured programming language suitable for implementing complex business logic.},
+	address = {Cham},
+	author = {Tikhomirov, Sergei},
+	booktitle = {Foundations and Practice of Security},
+	date-added = {2023-06-16 00:35:01 +0200},
+	date-modified = {2023-06-16 00:36:28 +0200},
+	editor = {Imine, Abdessamad and Fernandez, Jos{\'e} M. and Marion, Jean-Yves and Logrippo, Luigi and Garcia-Alfaro, Joaquin},
+	isbn = {978-3-319-75650-9},
+	pages = {206--221},
+	publisher = {Springer International Publishing},
+	title = {Ethereum: State of Knowledge and Research Perspectives},
+	year = {2018}}
+
+@article{academic-btc,
+	author = {Arvind Narayanan and Jeremy Clark},
+	date-added = {2023-06-16 00:28:48 +0200},
+	date-modified = {2023-06-16 00:34:57 +0200},
+	journal = {ACMQueue},
+	month = {August},
+	title = {The concept of cryptocurrencies is built from forgotten ideas in research literature.},
+	year = {2017}}
+
+@article{Cifuentes_2019,
+	abstractnote = {&amp;lt;p&amp;gt;La proliferaci{\'o}n del uso de las criptomonedas en Argentina y Venezuela en tiempos recientes muestra c{\'o}mo una econom{\'\i}a altamente vol{\'a}til puede convertirse en tierra f{\'e}rtil para las monedas digitales descentralizadas. Este art{\'\i}culo analiza algunos rasgos pol{\'\i}ticos, econ{\'o}micos y regulatorios que resultan similares entre estas dos naciones y por qu{\'e} un resultado colateral de altos {\'\i}ndices de inflaci{\'o}n, una enredada regulaci{\'o}n monetaria e inestabilidad pol{\'\i}tica puede ser el r{\'a}pido crecimiento de criptomonedas que no est{\'e}n ligadas a un banco central. La falta de confianza en las autoridades gubernamentales le abre una ventana a formas intangibles de incorporar y conservar el valor decreciente de las monedas locales. Este art{\'\i}culo establece un marco general sobre Bitcoin y su potencial en las econom{\'\i}as en v{\'\i}a de desarrollo y posteriormente entra a analizar los casos de Argentina y Venezuela separadamente.&amp;lt;/p&amp;gt;},
+	author = {Cifuentes, Andres F.},
+	date-added = {2023-06-16 00:12:02 +0200},
+	date-modified = {2023-06-16 00:12:02 +0200},
+	doi = {10.29263/lar03.2019.05},
+	journal = {Latin American Law Review},
+	month = {jul.},
+	number = {3},
+	pages = {99--116},
+	title = {Bitcoin en econom{\'\i}as turbulentas: el potencial de las criptomonedas en Argentina y Venezuela},
+	url = {https://revistas.uniandes.edu.co/index.php/lar/article/view/4674},
+	volume = {1},
+	year = {2019},
+	bdsk-url-1 = {https://revistas.uniandes.edu.co/index.php/lar/article/view/4674},
+	bdsk-url-2 = {https://doi.org/10.29263/lar03.2019.05}}
+
+@article{salvador,
+	abstract = {The country adopted the cryptocurrency as legal tender but its virtual wallet has problems},
+	author = {Matthew Sparkes},
+	date-added = {2023-06-16 00:10:51 +0200},
+	date-modified = {2023-06-16 00:11:01 +0200},
+	doi = {https://doi.org/10.1016/S0262-4079(22)00215-9},
+	issn = {0262-4079},
+	journal = {New Scientist},
+	number = {3373},
+	pages = {8},
+	title = {El Salvador revamps bitcoin system},
+	url = {https://www.sciencedirect.com/science/article/pii/S0262407922002159},
+	volume = {253},
+	year = {2022},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0262407922002159},
+	bdsk-url-2 = {https://doi.org/10.1016/S0262-4079(22)00215-9}}
+
+@article{citizen-btc,
+	abstract = {The bitcoin payment innovation has gained wider interest around the world, but its adoption among the general population has been a challenge. Bitcoin as a peer-to-peer technology works with no central authority or banks, and the transaction management and issuing of bitcoin is carried out collectively by the network. One major debate on bitcoin development and diffusion is the critical matter of nongovernment intervention through adequate policy and regulatory framework and thus hinders people\&{\#}x2019;s active participation (acceptance) in the bitcoin market. Consequently, this study is purposed to examine the role government policy and regulations (moderating impact) can have in driving the acceptance of bitcoin payment from the Chinese perspective. The UTAUT was used as the theoretical basis from which a model was developed for testing. The structural equation model (SEM) through the use of SmartPLS was employed to undertake the analysis. The results have demonstrated that government regulation moderates (significant) the influence of both performance expectancy and infrastructure support on the behavioral acceptance of bitcoin payment. However, government regulation contrary to expectations was not significant in moderating the influence of effort expectancy (EE) and security on the acceptance of bitcoin payments. Additionally, the study discovered that performance expectancy, security, EE, and infrastructure support were significant in encouraging bitcoin behavioral adoption. The practical and theoretical implications of these findings on the development and diffusion of bitcoin technology systems are dissected meticulously.},
+	author = {Bhushan, Bharat and Mensah, Isaac Kofi and Mwakapesa, Deborah Simon},
+	date = {2022/05/02},
+	date-added = {2023-06-16 00:09:30 +0200},
+	date-modified = {2023-06-16 00:09:41 +0200},
+	doi = {10.1155/2022/7373658},
+	isbn = {1939-0114},
+	journal = {Security and Communication Networks},
+	pages = {7373658},
+	publisher = {Hindawi},
+	title = {The Drivers of the Behavioral Adoption Intention of BITCOIN Payment from the Perspective of Chinese Citizens},
+	url = {https://doi.org/10.1155/2022/7373658},
+	volume = {2022},
+	year = {2022},
+	bdsk-url-1 = {https://doi.org/10.1155/2022/7373658}}
+
+@proceedings{mica,
+	address = {Brussels},
+	date-added = {2023-06-16 00:06:26 +0200},
+	date-modified = {2023-06-16 00:08:09 +0200},
+	editor = {EUR-Lex},
+	month = {September},
+	organization = {European Union},
+	publisher = {European Commission},
+	title = {Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on Markets in Crypto-assets, and amending Directive (EU) 2019/1937},
+	year = {2020}}
+
+@article{green-finance,
+	abstract = {The high power consumption of Bitcoin transactions has raised environmental and sustainable concerns of green investors and regulatory bodies. We utilize the time-varying optimal copula (TVOC) approach to showcase the dependence structure between bitcoin and green financial assets. We find multiple tail-dependence regimes characterize the extreme dependence between bitcoin and green financial assets, and the dependence structure is mainly asymmetric and time-varying. Finally, the hedging effectiveness of green financial assets for bitcoin revealed that all green assets, especially clean energy, are effective hedges for bitcoin.},
+	author = {Muhammad Abubakr Naeem and Sitara Karim},
+	date-added = {2023-06-16 00:01:40 +0200},
+	date-modified = {2023-06-16 00:02:05 +0200},
+	doi = {https://doi.org/10.1016/j.econlet.2021.110068},
+	issn = {0165-1765},
+	journal = {Economics Letters},
+	keywords = {Bitcoin, Green financial assets, Tail dependence, Copulas},
+	pages = {110068},
+	title = {Tail dependence between bitcoin and green financial assets},
+	url = {https://www.sciencedirect.com/science/article/pii/S0165176521003451},
+	volume = {208},
+	year = {2021},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0165176521003451},
+	bdsk-url-2 = {https://doi.org/10.1016/j.econlet.2021.110068}}
+
+@article{eco-env,
+	author = {Badea, Liana and Mungiu-Pupӑzan, Mariana Claudia},
+	date-added = {2023-06-16 00:00:10 +0200},
+	date-modified = {2023-06-16 00:01:36 +0200},
+	doi = {10.1109/ACCESS.2021.3068636},
+	journal = {IEEE Access},
+	pages = {48091-48104},
+	title = {The Economic and Environmental Impact of Bitcoin},
+	volume = {9},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1109/ACCESS.2021.3068636}}
+
+@article{economy,
+	abstract = {The recent proliferation of bitcoin has been a boon for users but might pose problems for governments. Indeed, some governments have already taken steps to ban or discourage the use of bitcoin. In a model with endogenous matching and random consumption preferences, we find multiple monetary equilibria including one in which bitcoin coexists with official currency. We then identify the conditions under which government transactions policy might deter the use of bitcoin. We show that such a policy becomes more difficult if some users strictly prefer bitcoin because they can avoid other users holding the official currency in the matching process. (JEL C78, E41, E42, E50)},
+	author = {Hendrickson, Joshua R. and Hogan, Thomas L. and Luther, William J.},
+	date-added = {2023-06-15 23:58:09 +0200},
+	date-modified = {2023-06-15 23:59:28 +0200},
+	doi = {https://doi.org/10.1111/ecin.12291},
+	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecin.12291},
+	journal = {Economic Inquiry},
+	number = {2},
+	pages = {925-939},
+	title = {The Political Economy of Bitcoin},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.12291},
+	volume = {54},
+	year = {2016},
+	bdsk-url-1 = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ecin.12291},
+	bdsk-url-2 = {https://doi.org/10.1111/ecin.12291}}
+
+@inproceedings{use-bitcoin,
+	author = {Bohr, Jeremiah and Bashir, Masooda},
+	booktitle = {2014 Twelfth Annual International Conference on Privacy, Security and Trust},
+	date-added = {2023-06-15 23:56:17 +0200},
+	date-modified = {2023-06-15 23:56:29 +0200},
+	doi = {10.1109/PST.2014.6890928},
+	pages = {94-101},
+	title = {Who Uses Bitcoin? An exploration of the Bitcoin community},
+	year = {2014},
+	bdsk-url-1 = {https://doi.org/10.1109/PST.2014.6890928}}
+
+@article{hood,
+	abstract = {The myths, the hype, and the true worth of bitcoins.},
+	address = {New York, NY, USA},
+	author = {Zohar, Aviv},
+	date-added = {2023-06-15 23:54:56 +0200},
+	date-modified = {2023-06-15 23:55:04 +0200},
+	doi = {10.1145/2701411},
+	issn = {0001-0782},
+	issue_date = {September 2015},
+	journal = {Commun. ACM},
+	month = {aug},
+	number = {9},
+	numpages = {10},
+	pages = {104--113},
+	publisher = {Association for Computing Machinery},
+	title = {Bitcoin: Under the Hood},
+	url = {https://doi.org/10.1145/2701411},
+	volume = {58},
+	year = {2015},
+	bdsk-url-1 = {https://doi.org/10.1145/2701411}}
+
+@article{sustainability2,
+	abstract = {Urquhart (2016) investigated the market efficiency of Bitcoin by means of five different tests on Bitcoin returns. It was concluded that the Bitcoin returns do not satisfy the efficient market hypothesis. We show here that a simple power transformation of the Bitcoin returns do satisfy the hypothesis through the use of eight different tests. The transformation used does not lead to any loss of information.},
+	author = {Saralees Nadarajah and Jeffrey Chu},
+	date-added = {2023-06-15 23:53:46 +0200},
+	date-modified = {2023-06-15 23:54:03 +0200},
+	doi = {https://doi.org/10.1016/j.econlet.2016.10.033},
+	issn = {0165-1765},
+	journal = {Economics Letters},
+	keywords = {Independence, Random walk hypothesis, Serial correlation},
+	pages = {6-9},
+	title = {On the inefficiency of Bitcoin},
+	url = {https://www.sciencedirect.com/science/article/pii/S0165176516304426},
+	volume = {150},
+	year = {2017},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0165176516304426},
+	bdsk-url-2 = {https://doi.org/10.1016/j.econlet.2016.10.033}}
+
+@article{sustainability1,
+	abstract = {Bitcoin is an electronic currency that has become increasingly popular since its introduction in 2008. Transactions in the bitcoin system are stored in a public transaction ledger (`the blockchain'), which is stored in a decentralized, peer-to-peer network. Bitcoin provides decentralized currency issuance and transaction clearance. The security of the blockchain depends on a compute-intensive algorithm for bitcoin mining, which prevents double spending of bitcoins and tampering with confirmed transactions. This `proof-of-work' algorithm is energy demanding. How much energy is actually consumed, is subject of debate. We argue that this energy consumption currently is in the range of 100--500MW. We discuss the developments in bitcoin mining hardware. We also briefly outline alternative schemes that are less energy demanding. We finally look at other blockchain applications, and argue that also here energy consumption is not of primary concern.},
+	author = {Harald Vranken},
+	date-added = {2023-06-15 23:52:37 +0200},
+	date-modified = {2023-06-15 23:53:11 +0200},
+	doi = {https://doi.org/10.1016/j.cosust.2017.04.011},
+	issn = {1877-3435},
+	journal = {Current Opinion in Environmental Sustainability},
+	note = {Sustainability governance},
+	pages = {1-9},
+	title = {Sustainability of bitcoin and blockchains},
+	url = {https://www.sciencedirect.com/science/article/pii/S1877343517300015},
+	volume = {28},
+	year = {2017},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S1877343517300015},
+	bdsk-url-2 = {https://doi.org/10.1016/j.cosust.2017.04.011}}
+
+@misc{rgb,
+	author = {RGB},
+	date-added = {2023-06-15 22:25:53 +0200},
+	date-modified = {2023-06-15 23:00:23 +0200},
+	howpublished = {\url{https://www.rgbfaq.com/faq/what-is-rgb}},
+	keywords = {rgb, what is rgb, bitcoin},
+	title = {What is RGB ?}}
+
+@misc{wiki-ln,
+	abstract = {The Lightning Network (LN) is a "layer 2" payment protocol layered on top of Bitcoin (and other blockchains and cryptocurrencies).[1] It is intended to enable fast transactions among participating nodes and has been proposed as a solution to the bitcoin scalability problem.[2][3] It features a peer-to-peer system for making micropayments of cryptocurrency through a network of bidirectional payment channels without delegating custody of funds.[4]
+
+Normal use of the Lightning Network consists of opening a payment channel by committing a funding transaction to the relevant base blockchain (layer 1), followed by making any number of Lightning Network transactions that update the tentative distribution of the channel's funds without broadcasting those to the blockchain, optionally followed by closing the payment channel by broadcasting the final version of the settlement transaction to distribute the channel's funds.[5]
+
+To settle the payments the channel must be closed. To initiate this process one node broadcasts the most up to date settlement transaction to the network. The next events can broadly be thought of in two ways, a cooperative closure in which both parties confirm a distribution and funds are immediately settled and an uncooperative closure. Uncooperative closes may be legitimate for example if one node is no longer part of the network or fraudulent with one node broadcasting an outdated, incorrect distribution. In uncooperative closures the funds are not settled instantly but there is a dispute period within which nodes may contest the broadcast distribution. If the second node broadcasts a more up to date distribution then the funds are transferred entirely to them. This punitive act, known as the breach remedy transaction, prevents nodes from attempting to defraud the network by broadcasting out-of-date transactions.},
+	author = {Wikipedia contributors},
+	date-added = {2023-06-15 22:22:21 +0200},
+	date-modified = {2023-06-15 22:43:01 +0200},
+	howpublished = {\url{https://en.wikipedia.org/w/index.php?title=Lightning\_Network\&oldid=1147106094}},
+	keywords = {wikipedia ln, Lightning network, ln basis},
+	title = {Lightning Network -- Wikipedia, The Free Encyclopedia},
+	year = {2023}}
+
+@article{eval-ln,
+	abstract = {Off-chain networks provide an attractive solution to the scalability challenges faced by cryptocurrencies such as Bitcoin. While first interesting networks are emerging, we currently have relatively limited insights into the structure and distribution of these networks. Such knowledge, however, is useful, when reasoning about possible performance improvements or the security of the network. For example, information about the different node types and implementations in the network can help when planning the distribution of critical software updates. This paper reports on a large measurement study of Lightning, a leading off-chain network, considering recorded network messages over a period of more than two years. In particular, we present an approach to classify the node types (LND, C-Lightning and Eclair) in the network, and find that we can determine the implementation of 99.9% of nodes correctly in our data set. We then report on geographical aspects of the Lightning Network, showing that proximity is less relevant, and that the Lightning Network is particularly predominant in metropolitan areas. Furthermore, we address various aspects of channels in the Lightning Network combined with the data we classified. We also demonstrate that channel endpoints behave very fairly and rarely cheat, that the same channel endpoints tend not to reconnect after the channel connection has closed and that there are more inactive than active channels in the Lightning Network. As a contribution to the research community, we will release our experimental data together with this paper.},
+	author = {Philipp Zabka and Klaus-T. Foerster and Stefan Schmid and Christian Decker},
+	date-added = {2023-06-15 22:19:51 +0200},
+	date-modified = {2023-06-15 22:20:07 +0200},
+	doi = {https://doi.org/10.1016/j.pmcj.2022.101584},
+	issn = {1574-1192},
+	journal = {Pervasive and Mobile Computing},
+	keywords = {Lightning network, Classification, Geographical analysis},
+	pages = {101584},
+	title = {Empirical evaluation of nodes and channels of the lightning network},
+	url = {https://www.sciencedirect.com/science/article/pii/S1574119222000323},
+	volume = {83},
+	year = {2022},
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S1574119222000323},
+	bdsk-url-2 = {https://doi.org/10.1016/j.pmcj.2022.101584}}
+
+@article{ln-topo,
+	abstract = {The Lightning Network (LN) was released on Bitcoin's mainnet in January 2018 as a solution to favor scalability. This work analyses the evolution of the LN during its first year of existence in order to assess its impact over some of the core fundamentals of Bitcoin, such as: node centralization, resilience against attacks and disruptions, anonymity of users, autonomous coordination of its members. Using a network theory approach, we find that the LN represents a centralized configuration with few highly active nodes playing as hubs in that system. We show that the removal of these central nodes is likely to generate a remarkable drop in the LN's efficiency, while the network appears robust to random disruptions. In addition, we observe that improvements in efficiency during the sample period are primarily due to the increase in the capacity installed on the channels, while nodes' synchronization does not emerge as a distinctive feature of the LN. Finally, the analysis of the structure of the network suggests a good preservation of nodes' identity against attackers with prior knowledge about topological characteristics of their targets, but also that LN is probably weak against attackers that are within the system.},
+	author = {Stefano Martinazzi and Andrea Flori},
+	date-added = {2023-06-15 22:13:41 +0200},
+	date-modified = {2023-06-15 22:16:26 +0200},
+	journal = {Plos One},
+	keywords = {Lightning Network, topology, Centralization, efficiency, robustness, synchronization, anonymity},
+	month = {January},
+	title = {The evolving topology of the Lightning Network: Centralization, efficiency, robustness, synchronization, and anonymity},
+	url = {https://doi.org/10.1371/journal.pone.0225966},
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.1371/journal.pone.0225966}}
+
+@misc{entropy,
+	abstract = {(i) Processor instructions
+
+RDSEED - access to the built-in True Random Number Generator on the processor.
+
+RDRAND - access to the built-in Pseudo-Random Number generator that gets seeded every time it's called with RDSEED
+
+RDTSC - returns the # of CPU cycles since reset
+
+(ii) OS sources
+
+Most of the Linux distributions have specific functions that call /dev/urandom, like getrandom, Where this is not the case it's called directly.
+
+getentropy used on Open BSD & Mac sysctl kern.random on Free & Net BSD
+
+CryptGenRandom on Windows.
+
+(iii) Dynamic Events
+
+Various clocks are called real-time, monotonic, and boot time.
+
+Resource usage is constantly changing and is a great source of entropy.
+
+On Windows, getrusage is called, and on Linux pseudofiles from /proc are used or sysctl where available.
+
+(iv) Static Events
+
+Anything from static details about compiler version to bitcoin client version to CPUID, hostname, network interfaces, kernel info, filesystem data.
+
+Even though the Events Static & Dynamic are non-cryptographic data, they still increase the entropy.
+
+The Dynamic and Static events are mixed in(mostly) by using << Left Shift Bits. Because it's a binary operation, every digit is a power of 2, so shifting the bit n positions ends up multiplying by 2^n. This adds further confusion when multiple numbers are used at once. The most common method used to mix in the entropy is the SHA512(its compression function more precisely). SHA512 works effectively as a pseudoRNG, as it shows uniformity, meaning each output has the same probability of occurring. In some cases, SHA256 is used.
+
+Good hash functions have a strong avalanche effect, meaning that when even a single input bit is incremented, each output bit changes with a probability of 50%. The bit diffusion is a result of adding, rotating, and XORing chunks of the input.
+
+In this mixing situation, the results of the processor pseudoRNG RDRAND are XORed 1024 times. (this is used as a fallback from RDSEED - the TRNG). Every call should reseed the PRNG differently and XORing is a great way to obfuscate things.
+
+Another technique for strengthening the entropy is hashing inputs in a loop for an amount of TIME, not just a number of times. The mixing techniques are benchmarked and the benchmarks are also mixed in as sources of entropy. With each entropy source and each mix the chances of an adversary recreating the entropy decrease exponentially. Even if a few of the sources are somehow compromised, it will still result in a safe key in the end.},
+	author = {Michael Folkson},
+	date-added = {2023-06-15 20:57:54 +0200},
+	date-modified = {2023-06-15 22:50:56 +0200},
+	howpublished = {\url{https://bitcoin.stackexchange.com/questions/112218/how-does-the-bitcoin-core-wallet-generate-entropy-for-the-hd-seed}},
+	keywords = {stackexchange, forum bitcoin, entropy bitcoincore, bitcoincore, private key},
+	lastchecked = {June 15th, 2023},
+	title = {Bitcoin Core entropy generation},
+	year = {2022},
+	bdsk-url-1 = {https://bitcoin.stackexchange.com/questions/112218/how-does-the-bitcoin-core-wallet-generate-entropy-for-the-hd-seed}}
+
+@article{secp-bitcoin,
+	abstract = {Abstract-Koblitz curves are a type of elliptic curves characterized by its non-random construction which allows for especially efficient computation. This is different from the most commonly used elliptic curves that have a pseudo-random structure where the parameters are chosen by a specified algorithm. With the rise of online cryptocurrency we are seeing practical uses and implementations of Koblitz curves in the exchange and ownership of cryptocurrency.
+Bitcoin uses a specific Koblitz curve secp256k1 defined by the Standards for Efficient Cryptography Group (SECG). The curve is defined over the finite field Fp :
+y2 = x3 + ax + b
+
+With a = 0, b = 7
+In my paper I will introduce Koblitz curves and look at its advantages or disadvantages in comparison to normal pseudo-random curves. I want to explore the different defined Koblitz curves from SECG and see why the specific curve secp256k1 was chosen by the creator of Bitcoin. I also want to give an overview of how the Bitcoin protocol uses Koblitz curves to ensure security in signing and transferring funds.},
+	author = {Kristian Bjoernsen},
+	date-added = {2023-06-15 20:47:35 +0200},
+	date-modified = {2023-06-15 22:49:28 +0200},
+	journal = {University of California, Santa Barbara},
+	keywords = {Koblitz curve, Bitcoin protocol, secp256k1, elliptic curve},
+	lastchecked = {June 15th, 2023},
+	title = {Koblitz Curves and its practical uses in Bitcoin security}}
+
+@misc{ord-doc,
+	abstract = {This handbook is a guide to ordinal theory. Ordinal theory concerns itself with satoshis, giving them individual identities and allowing them to be tracked, transferred, and imbued with meaning.
+
+Satoshis, not bitcoin, are the atomic, native currency of the Bitcoin network. One bitcoin can be sub-divided into 100,000,000 satoshis, but no further.
+
+Ordinal theory does not require a sidechain or token aside from Bitcoin, and can be used without any changes to the Bitcoin network. It works right now.
+
+Ordinal theory imbues satoshis with numismatic value, allowing them to be collected and traded as curios.
+
+Individual satoshis can be inscribed with arbitrary content, creating unique Bitcoin-native digital artifacts that can be held in Bitcoin wallets and transferred using Bitcoin transactions. Inscriptions are as durable, immutable, secure, and decentralized as Bitcoin itself.
+
+Other, more unusual use-cases are possible: off-chain colored-coins, public key infrastructure with key rotation, a decentralized replacement for the DNS. For now though, such use-cases are speculative, and exist only in the minds of fringe ordinal theorists.
+
+For more details on ordinal theory, see the overview.
+
+For more details on inscriptions, see inscriptions.
+
+When you're ready to get your hands dirty, a good place to start is with inscriptions, a curious species of digital artifact enabled by ordinal theory.},
+	author = {Casey Rodarmor and alt.},
+	date-added = {2023-06-15 20:39:48 +0200},
+	date-modified = {2023-06-15 22:49:56 +0200},
+	howpublished = {\url{https://docs.ordinals.com/}},
+	keywords = {ordinals, Bitcoin protocol},
+	lastchecked = {June 15th, 2023},
+	month = {November},
+	title = {Ordinals Documentation},
+	year = {2022},
+	bdsk-url-1 = {https://docs.ordinals.com/}}
+
+@periodical{ark-bitcoin-dev,
+	abstract = {Hi list,
+I'm excited to publicly publish a new second-layer protocol design I've been working on over the past few months called Ark.
+ 
+Ark is an alternative second-layer scaling approach that allows the protocol users to send and receive funds without introducing liquidity constraints. This means a recipient can get paid without an onboarding setup, such as acquiring inbound liquidity. The protocol also consumes orders of magnitude less on-chain footprint than Lightning, as there is no concept of opening and closing channels.
+ 
+Ark has a UTXO set that lives off the chain. These UTXOs are referred to as virtual UTXOs or vTXOs in short. Virtual UTXOs are like short-lived notes that expire after four weeks. Users must spend their vTXOs upon receiving them within this four-week timeframe or return them to themselves to reset the four-week timer. Virtual UTXOs live under a shared UTXO and can be revealed on-chain.
+ 
+When a payment is made on the protocol, existing vTXOs are redeemed, and new vTXOs are created, similar to how on-chain funds flow. To improve the anonymity set of the coin ownership, vTXOs values are restricted to a set of sats values ranging from one sat to a million sats.
+ 
+Users can acquire vTXOs from someone who already owns them or use a process called lifting, an atomic two-way peg mechanism that doesn't require trust. Lifting lets users lift their on-chain UTXOs off the chain for a 1:1 virtual UTXO. Users can unilaterally redeem a virtual UTXO for an on-chain UTXO without asking for cooperation. 
+ 
+When sending funds, users coin-select & destroy their virtual UTXOs and create new ones for the recipient (plus change) in an off-chain mixing round. Keys for each new virtual UTXO are tweaked with a shared secret that reveals proof of payment when spent. The payment destination is a dedicated well-known public key similar to silent payments; however, the payment trace is obfuscated through plain tweaking and blinded mixing.
+ 
+Ark enables anonymous, off-chain payments through an untrusted intermediary called the Ark Service Provider (ASP). ASPs are always-on servers that provide liquidity to the network and charge liquidity fees, similar to how Lightning service providers work. ASPs on Ark are both (1) liquidity providers, (2) blinded coinjoin coordinators, and (3) Lightning service providers. ASPs main job is to create rapid, blinded coinjoin sessions every five seconds, also known as pools. A user joins a pool session to make a payment, initially coin-selecting and registering their vTXOs to spend, registering vTXOs for intended recipients, and finally co-signing from their vTXOs to redeem them.
+ 
+Ark can be built on Bitcoin today, but we have to compromise on non-interactivity to do so. Recipients must be online to sign from n-of-n multisig to constrain the outputs of a shared UTXO, outputs as in vTXOs. With this approach, users won't be able to receive offline payments; they need to self-host an Ark client (like Lightning). To make Ark work without running a server, we need a covenant primitive such as BIP-118 or BIP-119. 
+ 
+BIP-118 ANYPREVOUTANYSCRIPT can constrain outputs of a spending transaction by hardcoding a 65-byte signature and a 33-byte unknown public key type in a script. Alternatively, BIP-119 CTV can directly constrain transaction outputs to a template hash. Other alternatives would be (1) TXHASH, (2) CAT + CSFS + TAGGEDHASH, or (3) XOR + CSFS + TAGGEDHASH combinations. 
+ 
+Ark uses a new locktype primitive called txlock to ensure the absolute atomicity of a transfer schedule. Txlock is a condition in which only the existence of a mutually agreed transaction identifier can unlock the condition. A txlock condition could be satisfied by a hypothetical opcode called OP_CHECKPREVTXIDFROMTHEUTXOSETVERIFY. However, Ark uses an alternative approach to achieving the same outcome using connectors. Connectors are a special output type on the protocol. The primitive is that if we want the Bitcoin script to check if a particular transaction id exists, we simply attach an output from that transaction into our spending transaction and check a pre-signed signature against prevouts of our spending transaction. The connector outpoint in the sighash preimage commits to the transaction id for which we want to satisfy the txlock condition. In the Ark context, this is the pool transaction containing vTXOs of intended recipients. Txlocks are used in Anchor Time Locked Contracts (ATLCs) to provide an atomic single-hub payment schedule.
+ 
+Anchor Time Locked Contracts (ATLCs) are conditional payments used on the Ark protocol. When a vTXO was created in the first place, an ATLC was attached to it, similar to how an eltoo:trigger is attached to a funding output during Eltoo channel formation. When a vTXO is spent, the pre-attached ATLC connects to a connector to form a txlock. 
+ 
+This txlock formation ensures that, for the attached ATLC to be claimed by the service provider, the outpoint context of its connector must remain unchanged. In other words, Ark service providers should not double-spend pool transactions they create. This provides an atomic payout construction for senders, as payout vTXOs nest under the same transaction of connectors. The link between connectors and newly created vTXOs is obfuscated through blinded mixing between those.
+ 
+‍Pool transactions are created by Ark service providers perpetually every five seconds, which are effectively blinded, footprint-minimal, rapid coinjoin rounds. ASP funds the pool with their own on-chain funds in exchange for vTXOs redemptions. Therefore, the pool transaction that hits on-chain has only one or a few inputs the ASP provides. The pool transaction has three outputs: vTXOs output, connectors output, and ASP change. Service providers place vTXOs for the intended recipients to claim (under the vTXOs output) and connectors for senders to connect (under the connectors output) in their pool transactions.
+ 
+The first output of the pool transaction, vTXOs output, contains newly created vTXOs of the coinjoin round. vTXOs are bundled and nested under this shared output and can be revealed on-chain. vTXOs output expires four weeks after its creation, and once it expires, the ASP who funded this output in the first place can solely sweep it. Nested vTXOs under the vTXOs output are expected to be redeemed by their owners in this window period. Nested vTXOs may be revealed in this four-week timeframe if the factory operator happens to be non-collaborative or non-responsive for a long period. Upon revealing a vTXO, a unilateral exit window can be triggered by attaching the pre-signed ATLC, similar to Eltoo. In the optimistic big picture, however, the final result is almost always a pool transaction with few inputs and three outputs where pool content is rarely revealed on-chain. Therefore, vTXOs & connectors remain almost always off the chain.
+
+Ark can interoperate with Lightning by attaching HTLCs and PTLCs to a pool transaction, just like ATLCs and connectors. The attached HTLCs live under another shared UTXO called the HTLCs outputs, which also expire after four weeks. Ark service providers forward HTLCs to the broader Lightning Network the moment after they them to their pool transaction. This means Ark service providers are also Lightning service providers. Ark users can also get paid from Lightning using HTLC-nested vTXOs.
+ 
+Ark is an open network where anyone can run their own ASP infrastructure. This means a user can have a vTXO set associated with different ASPs. The Ark protocol design allows users to pay lightning invoices from different vTXO sources using multi-part payments (MPP). Upon attaching HTLCs (or PTLCs) to multiple pools operated by various ASPs, HTLCs can be forwarded to the end destination via MPP.
+ 
+A pool transaction can be double-spent by the Ark service provider while it remains in the mempool. However, in the meantime, the recipient can pay a lightning invoice with their incoming zero-conf vTXOs, so it's a footgun for the service operator to double-spend in this case. 
+ 
+A transfer schedule from a sender to a receiver is atomic in nature. ASPs cannot redeem senders' vTXOs if they double-spend recipients' vTXOs under the mutually agreed pool transaction id. A future extension of Ark can utilize a hypothetical data manipulation opcode (OP_XOR or OP_CAT) to constrain the ASP's nonce in their signatures to disincentivize double-spending. Users can forge ASP's signature to claim their previously redeemed vTXOs if a double-spend occurs in a pool transaction. This is effectively an inbound liquidity-like tradeoff without compromising on the protocol design.
+ 
+On Ark, payments are credited every five seconds but settled every ten minutes. Payments are credited immediately because users don't have to wait for on-chain confirmations to spend their zero-conf vTXOs further. They can hand over zero-conf vTXOs to others or pay lightning invoices with them. This is because the ASP who can double-spend users' incoming vTXOs is the same ASP who routes Lightning payments. 
+ 
+You can find more info at https://arkpill.me/deep-dive https://www.arkpill.me/deep-dive.
+ 
+- Burak
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://lists.linuxfoundation.org/pipermail/bitcoin-dev/attachments/20230522/2609b1b5/attachment.html>},
+	author = {Burak Keceli},
+	date-added = {2023-06-15 20:33:33 +0200},
+	date-modified = {2023-06-15 23:01:08 +0200},
+	journal = {lists.linuxfoundation Bitcoin-dev},
+	keywords = {bitcoin-dev, Bitcoin core Ark, virtual utxos, vUTXOs},
+	title = {[bitcoin-dev] Ark: An Alternative Privacy-preserving Second Layer Solution},
+	url = {\url{https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html}},
+	year = {2023},
+	bdsk-url-1 = {https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html}}
+
+@article{exploring-utxo,
+	abstract = {The development of clustering heuristics has demonstrated that Bitcoin is not completely anonymous. Currently, existing clustering heuristics only consider confirmed transactions recorded in the Bitcoin blockchain. However, unconfirmed transactions in the mempool have yet to be utilized to improve the performance of the clustering heuristics.
+In this paper, we bridge this gap by combining unconfirmed and confirmed transactions for clustering Bitcoin addresses effectively. First, we present a data collection system for cap- turing unconfirmed transactions. Two case studies are per- formed to show the presence of user behaviors in unconfirmed transactions not present in confirmed transactions. Next, we apply the state-of-the-art clustering heuristics to unconfirmed transactions, and the clustering results can reduce the number of entities after applying, for example, the co-spend heuris- tics in confirmed transactions by 2.3%. Finally, we propose three novel clustering heuristics to capture specific behavior patterns in unconfirmed transactions, which further reduce the number of entities after the application of the co-spend heuristics by 9.8%. Our results demonstrate the utility of un- confirmed transactions in address clustering and further shed light on the limitations of anonymity in cryptocurrencies. To the best of our knowledge, this paper is the first to apply the unconfirmed transactions in Bitcoin to cluster addresses.},
+	author = {Kai Wang and Maike Tong and Changhao Wu and Jun Pang and Chen Chen and Xiapu Luo and Weili Han},
+	date-added = {2023-06-15 20:05:38 +0200},
+	date-modified = {2023-06-15 20:10:36 +0200},
+	journal = {ArXiv},
+	keywords = {Bitcoin utxo, Address clustering, Exploring utxo},
+	month = {March},
+	title = {Exploring Unconfirmed Transactions for Effective Bitcoin Address Clustering},
+	year = {2023}}
+
+@article{bitcoin-topology,
+	abstract = {Decentralized cryptocurrency systems, known as blockchains, have shown promise as infrastructure for mutually distrustful parties to agree on transactions safely. However, Bitcoin-derived blockchains and their variants suffer from the limitations of the CAP Trilemma, which is difficult to be solved through optimizing consensus protocols. Moreover, the P2P network of blockchains have problems in efficiency and reliability without considering the matching of physical and logical topologies. For the CAP Trilemma in consortium blockchains, we propose a physical topology based on the multi-dimensional hypercube with excellent partition tolerance in probability. On the other hand, the general hypercube has advantages in solving the mismatch problems in P2P networks. The general topology is further extended to a hierarchical recursive topology with more medium links or short links to balance the reliability requirements and the costs of physical network. We prove that the hypercube topology has better partition tolerance than the regular rooted tree topology and the ring lattice topology, and effectively fits the upper-layer protocols. As a result, blockchains constructed by the proposed topology can reach the CAP guarantee bound through adopting the proper transmission and the consensus protocols protocols that have strong consistency and availability.},
+	author = {Han Wang and Hui Li and Zixian Wang and Baofu Han and Minglong Zhang},
+	date-added = {2023-06-15 20:02:07 +0200},
+	date-modified = {2023-06-15 20:05:32 +0200},
+	journal = {ArXiv},
+	keywords = {P2P Topology, Bitcoin topology, P2P Network, partition tolerance, CAP Trilemma},
+	title = {A P2P Network Topology for Optimizing Partition Tolerance to Reach the CAP Guarantee Bound in Consortium Blockchains},
+	year = {2021}}
+
+@article{blind-mixing,
+	abstract = {To strengthen the anonymity of Bitcoin, several centralized coin-mixing providers (mixers) such as BitcoinFog.com, BitLaundry.com, and Blockchain.info assist users to mix Bitcoins through CoinJoin transactions with multiple inputs and multiple outputs to uncover the relationship between them. However, these mixers know the output address of each user, such that they cannot provide true anonymity. This paper proposes a centralized coin-mixing algorithm based on an elliptic curve blind signature scheme (denoted as Blind-Mixing) that obstructs mixers from linking an input address with an output address. Comparisons among three blind signature based algorithms, Blind-Mixing, BlindCoin, and RSA Coin-Mixing, are conducted. It is determined that BlindCoin may be deanonymized because of its use of a public log. In RSA Coin-Mixing, a user's Bitcoins may be falsely claimed by another. In addition, the blind signature scheme of Blind-Mixing executes 10.5 times faster than that of RSA Coin-Mixing.},
+	author = {QuingChun Shen tu and JianPing Yu},
+	date-added = {2023-06-15 19:58:05 +0200},
+	date-modified = {2023-06-15 20:02:05 +0200},
+	journal = {ArXiv},
+	keywords = {Bitcoin, anonymitty, Blind Signature, Coin-mixing, Blind-mixing},
+	title = {A Blind-Mixing Scheme for Bitcoin based on an Elliptic Curve Cryptography Blind Digital Signature Algorithm},
+	year = {2015}}
+
+@misc{ark,
+	abstract = {In @TheBitcoinConf, the enthusiast Burak, presented his work on a new L2 protocol, that as he says, is intented to solve some of the issues with LN that he found over time.
+
+He made a post in Medium:
+https://burakkeceli.medium.com/introducing-ark-6f87ae45e272
+
+An also posted in Bitcoin dev mailing list
+https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html
+
+For the most technical, what you guys think of this?},
+	date-added = {2023-06-15 19:54:05 +0200},
+	date-modified = {2023-06-15 22:51:08 +0200},
+	howpublished = {\url{https://bitcointalk.org/index.php?topic=5453928.0}},
+	keywords = {Ark L2 Bitcoin, Bitcoin protocol, Bitcoin updates, bitcointalk Ark},
+	lastchecked = {June 15th, 2023},
+	month = {May},
+	rating = {4},
+	read = {0},
+	title = {Ark - New L2 protocol},
+	year = {2023},
+	bdsk-url-1 = {https://bitcointalk.org/index.php?topic=5453928.0}}
+
+@article{rubiks,
+	abstract = {Presumably hard mathematical problems stand at the core of modern cryptog- raphy. A typical security proof for a cryptographic protocol relates its resis- tance against a particular attack to the hardness of some mathematical problem. Very few problems have survived thorough cryptanalysis, the most established ones being the integer fac- torization problem and the discrete logarithm problems on finite fields and elliptic curves. Other problems have been suggested, related, for example, to hyperelliptic curves, lattices [42], error-correcting codes [31], or multivariate poly- nomial equations [35] (the so-called postquantum cryptographic algorithms). They are currently less trusted than the three previous ones, but they might join or replace them in the future.
+In this paper we discuss three alternative computational problems: namely the balance, rep- resentation, and factorization problems in finite non-Abelian groups. Interestingly, these problems can be seen as generalizations of the Rubik's Cube. The famous 3D puzzle is notoriously ``hard'' [12], but of course not in a cryptographic sense. Com- puter programs solve it instantaneously, and even human champions need less than ten sec- onds. Nevertheless, the ``extensions'' considered in this paper were proposed as the core computa- tional problems underlying the security of Cayley hash functions, an elegant construction of a very important cryptographic primitive.
+For the cryptographic applications to be secure, the balance, representation, and factorization problems must be computationally hard. },
+	author = {Christophe Petit and Jean-Jacques Quisquater},
+	date-added = {2023-06-15 19:50:34 +0200},
+	date-modified = {2023-06-15 19:53:24 +0200},
+	journal = {Notices of the AMS},
+	keywords = {Rubik's cube, Babai's conjecture, Cayley Graph, non-Abelian groups},
+	month = {June/July},
+	pages = {733-739},
+	title = {Rubik's for Cryptographers},
+	year = {2013}}
+
+@article{SoK,
+	abstract = {Bitcoin has emerged as the most successful cryptographic currency in history. Within two years of its quiet launch
+in 2009, Bitcoin grew to comprise billions of dollars of economic
+value despite only cursory analysis of the system's design. Since
+then a growing literature has identified hidden-but-important
+properties of the system, discovered attacks, proposed promising alternatives, and singled out difficult future challenges.
+Meanwhile a large and vibrant open-source community has
+proposed and deployed numerous modifications and extensions.
+We provide the first systematic exposition Bitcoin and the
+many related cryptocurrencies or `altcoins.' Drawing from a
+scattered body of knowledge, we identify three key components
+of Bitcoin's design that can be decoupled. This enables a more
+insightful analysis of Bitcoin's properties and future stability.
+We map the design space for numerous proposed modifications, providing comparative analyses for alternative consensus
+mechanisms, currency allocation mechanisms, computational
+puzzles, and key management tools. We survey anonymity
+issues in Bitcoin and provide an evaluation framework for
+analyzing a variety of privacy-enhancing proposals. Finally
+we provide new insights on what we term disintermediation
+protocols, which absolve the need for trusted intermediaries
+in an interesting set of applications. We identify three general
+disintermediation strategies and provide a detailed comparison},
+	author = {Joseph Bonneau and Andrew Miller and Jeremy Clark and Arvind Narayanan and Joshua A. Kroll and Edward W. Felten},
+	date-added = {2023-06-15 19:42:58 +0200},
+	date-modified = {2023-06-16 10:31:46 +0200},
+	howpublished = {\url{https://jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf}},
+	keywords = {bitcoin challenges, bitcoin research, jbonneau et alt.},
+	lastchecked = {June 15th, 2023},
+	month = {May},
+	title = {SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies},
+	year = {2015},
+	bdsk-url-1 = {https://jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf}}
+
+@article{whitepaper,
+	abstract = {A purely peer-to-peer version of electronic cash would allow online
+payments to be sent directly from one party to another without going through a
+financial institution. Digital signatures provide part of the solution, but the main
+benefits are lost if a trusted third party is still required to prevent double-spending.
+We propose a solution to the double-spending problem using a peer-to-peer network.
+The network timestamps transactions by hashing them into an ongoing chain of
+hash-based proof-of-work, forming a record that cannot be changed without redoing
+the proof-of-work. The longest chain not only serves as proof of the sequence of
+events witnessed, but proof that it came from the largest pool of CPU power. As
+long as a majority of CPU power is controlled by nodes that are not cooperating to
+attack the network, they'll generate the longest chain and outpace attackers. The
+network itself requires minimal structure. Messages are broadcast on a best effort
+basis, and nodes can leave and rejoin the network at will, accepting the longest
+proof-of-work chain as proof of what happened while they were gone.},
+	author = {Satoshi Nakamoto},
+	date-added = {2023-06-15 19:39:19 +0200},
+	date-modified = {2023-06-15 22:48:37 +0200},
+	journal = {Bitcoin.org},
+	keywords = {bitcoin, satoshi nakamoto, whitepaper},
+	lastchecked = {June 15th, 2023},
+	month = {October},
+	title = {Bitcoin : A peer-to-peer cash Electronic System},
+	url = {\url{www.bitcoin.org/bitcoin.pdf}},
+	year = {2008},
+	bdsk-url-1 = {www.bitcoin.org/bitcoin.pdf}}
