@@ -347,7 +347,7 @@ Zlaté pravidlo: Kybernetická bezpečnost je pohyblivým cílem, který se při
 ## Nastavení poštovní schránky
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Všimněte si, že tento díl kurzu momentálně obsahuje pouze návody v francouzštině. Pracujeme na překladu videa do vašeho jazyka. Pokud nám chcete s překladem pomoci, kontaktujte nás prostřednictvím [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 

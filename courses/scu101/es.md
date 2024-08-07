@@ -367,7 +367,7 @@ Regla de oro: ¡La seguridad informática es un objetivo en constante evolución
 ## Configuración de un Buzón de Correo
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Ten en cuenta que, por el momento, esta parte del curso solo contiene tutoriales en francés. Actualmente estamos trabajando en traducir el video para publicarlo en tu idioma. Si deseas ayudarnos a traducir, contáctanos a través de [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 

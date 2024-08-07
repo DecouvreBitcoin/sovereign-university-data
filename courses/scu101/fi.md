@@ -348,7 +348,7 @@ Kultainen sääntö: Kyberturvallisuus on liikkuva maali, joka mukautuu oppimism
 ## Sähköpostilaatikon pystyttäminen
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Huomaa, että toistaiseksi tämä kurssin osa sisältää vain ohjevideoita ranskaksi. Työskentelemme parhaillaan videon kääntämiseksi julkaisua varten kielelläsi. Jos haluat auttaa meitä kääntämään, ota meihin yhteyttä [GitHubin](https://github.com/PlanB-Network/bitcoin-educational-content) kautta.
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 

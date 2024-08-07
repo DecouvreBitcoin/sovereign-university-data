@@ -370,6 +370,7 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 ## Mise en place d'un Boite Mail 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 

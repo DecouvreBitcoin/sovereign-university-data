@@ -372,7 +372,7 @@ Regola d'oro: La sicurezza informatica è un obiettivo in movimento che si adatt
 ## Configurazione di una Casella di Posta
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Si noti che, al momento, questa parte del corso contiene solo tutorial in francese. Stiamo attualmente lavorando alla traduzione del video per pubblicarlo nella tua lingua. Se vuoi aiutarci a tradurre, contattaci tramite [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 

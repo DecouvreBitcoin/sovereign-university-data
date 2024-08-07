@@ -363,7 +363,7 @@ Golden rule: Cybersecurity is a moving target that will adapt to your learning j
 ## Setting up a Mailbox 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Notice that, for the moment, this part of the course only contains how-to tutorials in French. We are currently working on translating the video to publish it in your language. If you want to help us translate, contact us via the [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 

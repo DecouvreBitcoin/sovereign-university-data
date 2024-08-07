@@ -360,7 +360,7 @@ Regra de ouro: A segurança da informação é um alvo em movimento que se adapt
 ## Configurando uma Caixa de Correio
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Observe que, por enquanto, esta parte do curso contém apenas tutoriais em francês. Estamos trabalhando na tradução do vídeo para publicá-lo em seu idioma. Se você quiser nos ajudar a traduzir, entre em contato conosco através do [GitHub](https://github.com/PlanB-Network/bitcoin-educational-content)
+https://planb.network/tutorials/others/proton-mail
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
