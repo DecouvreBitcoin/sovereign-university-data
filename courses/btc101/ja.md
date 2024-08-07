@@ -1261,11 +1261,11 @@ AIを例にしてみましょう。これらの技術は、ビデオゲーム、
 
 BTC101コースの修了おめでとうございます！あなたがこのコースを楽しみ、あなた自身の新しい扉を開いたであろうことを心から願っています。ビットコインについてのあなたの旅はまだ始まったばかりです。
 
-- [BTC 102](https://planb.network/course/btc102/fr) では、ビットコイン計画を立てるのに役立ちます。
-- [LN 201](https://planb.network/course/ln201/fr) と [LN 202](https://planb.network/course/ln202/fr) は、レイヤー2の支払いネットワークであるライトニング・ネットワークを発見することができます。
-- [ECON 201](https://planb.network/course/econ201/fr) では、オーストリア学派の経済学をカバーします。
-- [SECU 101](https://planb.network/course/secu101/fr) では、デジタル・セキュリティを更新することができます。
-- [MINAGE 201](https://planb.network/course/min201/fr) では、マイニングについて詳しく学ぶことができます。
+- [BTC 102](https://planb.network/courses/btc102) では、ビットコイン計画を立てるのに役立ちます。
+- [LNP 201](https://planb.network/courses/lnp201) レイヤー2の支払いネットワークであるライトニング・ネットワークを発見することができます。
+- [ECO 201](https://planb.network/courses/eco201) では、オーストリア学派の経済学をカバーします。
+- [SCU 101](https://planb.network/courses/scu101) では、デジタル・セキュリティを更新することができます。
+- [MIN 201](https://planb.network/courses/min201) では、マイニングについて詳しく学ぶことができます。
 - 
 - その他多くのコースがあります...
 

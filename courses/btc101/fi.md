@@ -1223,10 +1223,10 @@ Rahoitusjärjestelmän muuttaminen edellyttää valuutan muuttamista. Satoshi lo
 Onnittelut BTC 101 -kurssin suorittamisesta! Toivon vilpittömästi, että nautit siitä ja se avasi sinulle uusia ovia. Bitcoinin löytäminen on vasta alussa, ja kutsun sinut tutustumaan yliopistossa tarjolla oleviin muihin kursseihin.
 
 - [BTC 102](https://planb.network/courses/btc102) auttaa sinua luomaan bitcoin-suunnitelmasi
-- [LN 201](https://planb.network/courses/ln201) ja [LN 202](https://planb.network/courses/ln202) antavat sinulle mahdollisuuden tutustua Lightning Networkiin, toisen kerroksen maksuverkkoon
-- [ECON 201](https://planb.network/courses/econ201) kattaa itävaltalaisen taloustieteen
-- [SECU 101](https://planb.network/courses/secu101) auttaa sinua päivittämään digitaalisen turvallisuutesi
-- [MINAGE 201](https://planb.network/courses/min201) oppiaksesi lisää louhinnasta
+- [LNP 201](https://planb.network/courses/lnp201) antaa sinulle mahdollisuuden tutustua Lightning Networkiin, toisen kerroksen maksuverkkoon
+- [ECO 201](https://planb.network/courses/eco201) kattaa itävaltalaisen taloustieteen
+- [SCU 101](https://planb.network/courses/scu101) auttaa sinua päivittämään digitaalisen turvallisuutesi
+- [MIN 201](https://planb.network/courses/min201) oppiaksesi lisää louhinnasta
 - ja paljon muuta...
 
 ## Tue meitä

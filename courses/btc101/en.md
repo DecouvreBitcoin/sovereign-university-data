@@ -1288,11 +1288,11 @@ Changing the financial system requires changing the currency. Satoshi created Bi
 
 Congratulations on completing this BTC 101 course! I sincerely hope you enjoyed it and it opened doors for you. Your discovery of bitcoin is just beginning, and I invite you to explore all the other courses available at the university.
 
-- [BTC 102](https://planb.network/courses/btc102) will help you set up your bitcoin plan
-- [LN 201](https://planb.network/courses/ln201) and [LN 202](https://planb.network/courses/ln202) will allow you to discover the Lightning Network, a second-layer payment network'
-- [ECON 201](https://planb.network/courses/econ201) will cover Austrian economics
-- [SECU 101](https://planb.network/courses/secu101) will allow you to update your digital security
-- [MINAGE 201](https://planb.network/courses/min201) to learn more about mining
+- [BTC 102](https://planb.network/courses/btc101) will help you set up your bitcoin plan
+- [LNP 201](https://planb.network/courses/lnp201) will allow you to discover the Lightning Network, a second-layer payment network
+- [ECO 201](https://planb.network/courses/eco201) will cover Austrian economics
+- [SCU 101](https://planb.network/courses/scu101) will allow you to update your digital security
+- [MIN 201](https://planb.network/courses/min201) to learn more about mining
 - and many more...
 
 ## Support us
