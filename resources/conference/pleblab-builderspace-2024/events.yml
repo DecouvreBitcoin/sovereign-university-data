@@ -23,3 +23,28 @@
   - hacker
   timezone: America/Chicago
   type: course
+- address_line_1: Austin, USA
+  address_line_2: ''
+  address_line_3: ''
+  book_in_person: false
+  book_online: false
+  builder: PlebLab
+  description: Every Tuesday, we open our doors to the Bitcoin Builders, from simple
+    projects and creators to forward-thinking developers. It is a collaborative space
+    where your Bitcoin project or startup takes center stage.
+  end_date: '2024-08-13 22:00:00'
+  language:
+  - en
+  links:
+    live_url: ''
+    replay_url: ''
+    website: https://www.meetup.com/pleb-lab/events/302290112/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link
+  name: Open Hackerspace Day
+  price_dollars: 0
+  start_date: '2024-08-13 14:00:00'
+  tags:
+  - bitcoiner
+  - general
+  - hacker
+  timezone: America/Chicago
+  type: course
