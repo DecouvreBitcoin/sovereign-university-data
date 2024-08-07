@@ -372,6 +372,10 @@ Beachten Sie, dass dieser Teil des Kurses derzeit nur Anleitungen auf Französis
 ## Absicherung mit 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Erstellung eines Passwort-Managers

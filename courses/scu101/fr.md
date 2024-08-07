@@ -376,6 +376,10 @@ Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter
 ## Sécurisation en 2FA
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
+https://planb.network/tutorials/others/authy
+
+https://planb.network/tutorials/others/security-key
+
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Création d'un gestionaire de mot de passe
