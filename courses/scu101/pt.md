@@ -371,12 +371,12 @@ Observe que, por enquanto, esta parte do curso contém apenas tutoriais em franc
 
 ## Criando um gerenciador de senhas
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Protegendo suas contas
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-
+https://planb.network/tutorials/others/bitwarden
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Configuração de Backup
