@@ -1,0 +1,29 @@
+id: 1d70bc9d-b760-4319-96d5-f079add5fb8d
+name: LearnBitcoin.com
+category: education
+
+links:
+  website: https://www.learnbitcoin.com/
+  twitter: https://x.com/LearnBitcoincom
+  github: https://github.com/treib-holdings/learnbitcoin-content
+
+tags:
+  - easy-explain
+  - deep-dive
+  - privacy
+  - historical
+  - user-friendly
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-09-11
+    urgency: 1
+    contributor_names:
+      - treib-holdings
+    reward: 0
+
+contributor_names:
+  - treib-holdings
+
+license: CC-BY-SA-V4

@@ -1,0 +1,4 @@
+description: |
+  LearnBitcoin.com is a Bitcoin-only education site. It has three parts: a guided six-chapter journey from "why money is broken" to running your own node, a set of long-form "rabbit holes" on single topics (the mempool, UTXOs, halvings, mining, the block size war, the BIP process, privacy, quantum exposure, energy, custodial failures from Mt. Gox to FTX), and a glossary of about 470 terms written in plain language.
+
+  Every claim is sourced and every on-chain number is checked against a full node. There are no ads, no affiliate links, no newsletter, no price predictions and no altcoins. All content is CC-BY-SA and the source is public on GitHub, so it can be reused, translated or corrected by anyone.
