@@ -1,0 +1,36 @@
+id: fe20ebd5-7105-4e2d-a28b-0de5d99c3765
+name: Big Bad Wallet
+category: education
+
+links:
+  website: https://bigbadwallet.com/
+  twitter: https://x.com/bigbadwallet
+  github: https://github.com/Sour-Labs
+  nostr: npub1tw33z4w3lvapj0aujjwp57nj3a8x0rq87pq7p02c2233ymhyfj7qpwjy2h
+
+tags:
+  - easy-explain
+  - user-friendly
+  - wallets
+  - self-sovereignty
+  - guides
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-09-12
+    urgency: 1
+    contributor_names:
+      - kevinmeresse
+    reward: 0
+  - language: fr
+    last_contribution_date: 2026-09-12
+    urgency: 1
+    contributor_names:
+      - kevinmeresse
+    reward: 0
+
+contributor_names:
+  - kevinmeresse
+
+license: CC-BY-SA-V4
